@@ -527,6 +527,8 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 @media (max-width: 400px) {
   
+  /*header*/
+
   .header{
     height: 100px;
 
@@ -545,15 +547,31 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
     transition: background-color 2000ms;
   }
+
+  .areas-text{
+    font-size: 20px;
+    text-decoration: none;
+    color: orange;
+  
+    font-family: italic;
+  }
+
+  .text-orientation-content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 40px;
+  }
+
   .icon{
-    margin-left: 20px;
-    width: 70%;
+    margin-left: 0px;
+    width: 10%;
     height: 95px;
   } 
 
   .banner-test{
   width: 100%;
-}
+  }
 
   .align-localization-title{
     color: black;
@@ -564,30 +582,56 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 10px;
   }
 
-  .name-number{
-    font-size: 15px;
-  }
-  
-  .areas-text{
-    font-size: 3px;
-  }
+  /*Content*/
 
   .text-content{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 2px;
+    font-size: 6px;
   }
 
-  .align-orientaion-tltle{
+  .content{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    padding-bottom: 20px;
+  }
+
+  /*Contact*/
+
+  .contact-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+  
+    padding-top: 100px;
+    margin-bottom: 30px;
+  }
+
+  .align-localization-title{
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40PX;
-    padding-top: 100px;
-    margin-left: 900px;
-    margin-bottom: 20px;
-  
-    display: grid;
+    font-size: 10px;
+    padding-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 6px;
   }
+
+  .divede-content{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    flex-direction: column;
+  }
+
+  .content-text-description{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 5px;
+  }
+
+  .name-number{
+    font-size: 5px;
+  }  
 
   .image-content{
     margin-left: 30px;
@@ -596,4 +640,39 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     width: 15%;
   }
+
+  /*Footer*/
+
+  .footer{
+    height: 150px;
+  
+    font-size: 15px;
+  
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+   
+    background-color: black;
+    color: white;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+
+  #images{
+    height: 20px;
+  }
+  
+  #images2{
+    height: 24px;
+  }
+  
+  .central-link{
+    display: grid;
+    place-items: center;
+    font-size: 10px;
+  }
+
 }
